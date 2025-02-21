@@ -53,6 +53,6 @@ jobs:
         with:
           context: ./
           file: ./docker/Dockerfile.tpl
-          platforms: linux/armv7,linux/arm64
+          platforms: linux/arm/v7,linux/arm64
           push: true
           tags: smter/ani-rss:latest,smter/ani-rss:${{ env.version }}
